@@ -1,4 +1,22 @@
 Rails.application.routes.draw do
+  # get 'coupons/index'
+  #
+  # get 'coupons/show'
+  #
+  # get 'coupons/new'
+  #
+  # get 'coupons/create'
+  resources :coupons
+#   Prefix Verb   URI Pattern                 Controller#Action
+# coupons GET    /coupons(.:format)          coupons#index
+#        POST   /coupons(.:format)          coupons#create
+# new_coupon GET    /coupons/new(.:format)      coupons#new
+# edit_coupon GET    /coupons/:id/edit(.:format) coupons#edit
+# coupon GET    /coupons/:id(.:format)      coupons#show
+#        PATCH  /coupons/:id(.:format)      coupons#update
+#        PUT    /coupons/:id(.:format)      coupons#update
+#        DELETE /coupons/:id(.:format)      coupons#destroy
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
