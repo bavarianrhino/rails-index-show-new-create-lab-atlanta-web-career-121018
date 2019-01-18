@@ -33,6 +33,8 @@ class CouponsController < ApplicationController
         # end
         # validates :title, presence: true, length: { minimum: 5 }
         # validates :text, presence: true, length: { minimum: 5 }
+        # validates :alias, uniqueness: true
+        # validates :title, uniqueness: true
     end
 
     private
